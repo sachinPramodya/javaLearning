@@ -1,6 +1,4 @@
-# MY Pay API
-
-##http://localhost:8080/swagger-ui.html#/customer-controller/
+# GlobalExceptionHandling
 
 ###java 11
 
