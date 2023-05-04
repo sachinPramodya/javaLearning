@@ -1,0 +1,29 @@
+
+spring:
+  # Data rest propertie
+  data:
+    rest:
+      base-path: /api/v1
+  # Database properties
+  datasource:
+    driver-class-name: "com.mysql.jdbc.Driver"
+    url:    jdbc:mysql://localhost:3306/learning_db?useSSL=false
+    username: user
+    password: user
+   
+  # JPA properties
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+# host
+host:
+  url: http://localhost
+
+server:
+  port: 8080
